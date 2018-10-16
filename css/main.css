@@ -1,7 +1,21 @@
 #bear:hover #left-ear #right-ear {
   transition: all .5s linear;
+  transform: translate(1em 3em);
 }
 
 #bear:hover #left-eye #right-eye {
   transition: all .5s linear;
+  transform: translate(2em 3em);
+  animation: eyes .5s .8s infinite alternate;
+}
+
+@keyframes eyes {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(4em);
+  }
+
 }
