@@ -1,0 +1,7 @@
+#bear:hover #left-ear #right-ear {
+  transition: all .5s linear;
+}
+
+#bear:hover #left-eye #right-eye {
+  transition: all .5s linear;
+}
