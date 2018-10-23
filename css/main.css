@@ -1,13 +1,14 @@
-g#left-ear, g#right-ear {
+#left-ear, #right-ear {
   transition: all .5s linear;
   transform: translateY(-10px);
 }
 
-.bear:hover g#left-ear, g#right-ear {
+.bear:hover #left-ear, #right-ear {
   transform: translateY(10px);
+  transition: all .5s linear;
 }
 
-g#left-eye, g#right-eye {
+#left-eye, #right-eye {
   animation: eyes .5s .8s infinite alternate linear;
 }
 
