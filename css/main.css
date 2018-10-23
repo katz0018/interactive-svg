@@ -1,17 +1,18 @@
-#left-ear, #right-ear {
+g#left-ear, g#right-ear {
   transition: all .5s linear;
   transform: translateY(-10px);
 }
 
-.bear:hover #left-ear, #right-ear {
+.bear:hover g#left-ear, g#right-ear {
   transform: translateY(10px);
 }
 
-#left-eye, #right-eye {
+g#left-eye, g#right-eye {
   animation: eyes .5s .8s infinite alternate linear;
 }
 
 @keyframes eyes {
+
   0% {
     transform: translateX(10px);
   }
